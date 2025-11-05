@@ -1,0 +1,26 @@
+{
+  "name": "clean-vite",
+  "version": "1.0.0",
+  "description": "精简版 Vite 学习项目 - 理解 Vite 核心工作原理",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "vite",
+    "bundler",
+    "dev-server",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-static": "^5.0.0",
+    "@vue/compiler-sfc": "^3.4.21",
+    "es-module-lexer": "^1.3.0"
+  }
+}
+
